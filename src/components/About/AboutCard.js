@@ -23,11 +23,11 @@ function AboutCard() {
               <ImPointRight /> Watching Movies / TV Series
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Ma2log
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          <p style={{ color: "rgb(155, 126, 172)" }}>
             "If you want to win the lottery you've got to make money to get a ticket."{" "}
           </p>
           <footer className="blockquote-footer">Lou Bloom -Nightcrawler (2014) </footer>
