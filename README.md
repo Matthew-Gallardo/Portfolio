@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website -<br/>
-  <a href="https://gallardo-matthew.vercel.app/" target="_blank">matth</a>
+  <a href="https://gallardo-matthew.vercel.app/" target="_blank">Matthew Gallardo</a>
 </h2>
 
 
