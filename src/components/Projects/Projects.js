@@ -2,10 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import android from "../../Assets/Projects/android.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import dbms from "../../Assets/Projects/dbms.png";
+import keyb from "../../Assets/Projects/keyb.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -18,17 +18,17 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few projects I've worked on university.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={keyb}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Cast Type"
+              description="I developed MERN E-commerce website for mechanical keyboards, utilizing React.js for the frontend, Express.js (built on top of Node.js) for the backend, and MongoDB for the database. The application includes features such as Redux for state management and React Styled Components for UI design. I created REST APIs using Express to facilitate communication between the frontend and backend, enabling efficient addition, updating, and deletion of data. Additionally, I integrated the Stripe API (sandbox) for secure credit card transactions and payment processing."
+              ghLink="https://github.com/Matthew-Gallardo/MERN-E-Commerce-for-Mechanical-Keyboards.git"
+              
             />
           </Col>
 
@@ -36,32 +36,33 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="CompScie Freedom Wall"
+              description="I developed a MERN Freedom Wall website specifically designed for CS students. The application was built using React.js for the frontend, Node.js for the backend, and MongoDB for the database. To facilitate communication between the frontend and backend, I implemented a REST API using the Express framework in Node.js. This allowed seamless interaction with the MongoDB database for efficient data storage and retrieval. For state management in the frontend, I utilized React Hooks and the Context API, ensuring an optimized and streamlined user experience."
+              ghLink="https://github.com/Matthew-Gallardo/CompScie-FreedomWall.git"
+              demoLink="https://chatify-49.web.app/"
+              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={dbms}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="EasyPC Database Management System"
+              description="I developed an EasyPC-inspired inventory and Point of Sales (PoS) system using Java. The system includes a graphical user interface (GUI) built with Java Swing, allowing users to interact with the application seamlessly. For efficient data storage and retrieval, I integrated MySQL as the backend database. The system is designed to handle inventory tracking, product management, and sales processing, providing a comprehensive solution for managing the EasyPC inventory and facilitating smooth PoS operations."
+              ghLink="https://github.com/Matthew-Gallardo/Database-PoS-Inventory-System-for-EasyPc.git"
+                          
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={android}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="VoxTunesAI"
+              description="I developed an Android app in Android Studio, utilizing speech recognition technology to enhance the user experience of music players on Android devices. The app is programmed using Java , and Android Studio's tools and resources were utilized to create an intuitive user interface. VoxTunes AI allows users to control music playback by speaking commands, eliminating the need for physical buttons or touchscreens. By leveraging the Android Speech Recognition API, the app converts spoken commands into text and performs the desired actions within the music player."
+              ghLink="https://github.com/Matthew-Gallardo/Android-Voice-Controlled-Music-Player.git"
+              
             />
           </Col>
 
