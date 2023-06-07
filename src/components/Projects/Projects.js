@@ -7,7 +7,7 @@ import emotion from "../../Assets/Projects/emotion.png";
 import dbms from "../../Assets/Projects/dbms.png";
 import keyb from "../../Assets/Projects/keyb.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import bitsOfCode from "../../Assets/Projects/fw.JPG";
 
 function Projects() {
   return (
@@ -39,7 +39,7 @@ function Projects() {
               title="CompScie Freedom Wall"
               description="I developed a MERN Freedom Wall website specifically designed for CS students. The application was built using React.js for the frontend, Node.js for the backend, and MongoDB for the database. To facilitate communication between the frontend and backend, I implemented a REST API using the Express framework in Node.js. This allowed seamless interaction with the MongoDB database for efficient data storage and retrieval. For state management in the frontend, I utilized React Hooks and the Context API, ensuring an optimized and streamlined user experience."
               ghLink="https://github.com/Matthew-Gallardo/CompScie-FreedomWall.git"
-              demoLink="https://chatify-49.web.app/"
+              demoLink="https://opensourcefw.herokuapp.com/"
               
             />
           </Col>
