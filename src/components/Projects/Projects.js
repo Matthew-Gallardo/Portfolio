@@ -36,7 +36,7 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="CompScie Freedom Wall"
+              title="Open Source Freedom Wall"
               description="I developed a MERN Freedom Wall website specifically designed for CS students. The application was built using React.js for the frontend, Node.js for the backend, and MongoDB for the database. To facilitate communication between the frontend and backend, I implemented a REST API using the Express framework in Node.js. This allowed seamless interaction with the MongoDB database for efficient data storage and retrieval. For state management in the frontend, I utilized React Hooks and the Context API, ensuring an optimized and streamlined user experience."
               ghLink="https://github.com/Matthew-Gallardo/CompScie-FreedomWall.git"
               demoLink="https://opensourcefw.herokuapp.com/"

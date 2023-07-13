@@ -31,10 +31,10 @@ function Home2() {
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Machine Learnings </b> and
+                <b className="purple">Software and Web technologies </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Artificial Intelligence
+                  Machine Learning / Artificial Intelligence
                 </b>
               </i>
               <br />
