@@ -10,27 +10,30 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Matthew Gallardo </span>
             from <span className="purple"> Quezon City, Philippines.</span>
-            <br /> I am Computer Science Student @Polytechnic University of the Philippines
+            <br />
+            <br /> I am <span className="purple">Computer Science </span> Student @ Polytechnic University of the Philippines Sta. Mesa Manila
+            <br />
+            Currently <span className="purple">Commision on Higher Education (CHED) </span> and <span className="purple">Quezon City Youth Development</span> Scholar
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Play Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Watching Movies / TV Series
+              <ImPointRight /> Watch Movies and TV Series
             </li>
             <li className="about-activity">
-              <ImPointRight /> Ma2log
+              <ImPointRight /> Sleep
             </li>
           </ul>
 
           <p style={{ color: "rgb(155, 126, 172)" }}>
             "If you want to win the lottery you've got to make money to get a ticket."{" "}
           </p>
-          <footer className="blockquote-footer">Lou Bloom -Nightcrawler (2014) </footer>
+          <footer className="blockquote-footer"><span className="purple">Lou Bloom </span> | Nightcrawler (2014) </footer>
         </blockquote>
       </Card.Body>
     </Card>

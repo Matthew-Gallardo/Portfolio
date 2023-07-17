@@ -96,7 +96,7 @@ const Contact = () => {
       <Container>
         <Left>
           <Form ref={ref} onSubmit={handleSubmit}>
-            <Title>Contact Me</Title>
+            <Title><span className="purple"> CONTACT </span>ME</Title>
             <Input placeholder="Name" name="name" />
             <Input placeholder="Email" name="email" />
             <TextArea

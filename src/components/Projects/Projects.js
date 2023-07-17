@@ -6,7 +6,7 @@ import android from "../../Assets/Projects/android.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import dbms from "../../Assets/Projects/dbms.png";
 import keyb from "../../Assets/Projects/keyb.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import sack from "../../Assets/Projects/SACK.JPG";
 import bitsOfCode from "../../Assets/Projects/fw.JPG";
 
 function Projects() {
@@ -65,7 +65,18 @@ function Projects() {
               
             />
           </Col>
-            
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={sack}
+              isBlog={false}
+              title="SackCal- Knapsack Problem Calculator"
+              description="Web-based Knapsack problem calculator,  an interactive tool to solve the Knapsack problem with ease. Allowing users to input the weights and values of items, as well as the weight capacity of the knapsack. Using the brute force approach and dynamic programming, the calculator efficiently determines the optimal subset of items to maximize the total value within the weight constraint.
+              It displays the maximum achievable value and the selected items that should be included in the knapsack. This tool enables users to explore different scenarios, experiment with different item weights and values, and observe the impact on the overall solution."
+              ghLink="https://github.com/Matthew-Gallardo/Bruteforce-Knapsack-Algorithm.git"
+              demoLink="https://bruteforce-knapsack-algorithm.vercel.app/"
+              
+            />
+          </Col>
          
           
         </Row>
