@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import android from "../../Assets/Projects/android.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import thesis from "../../Assets/Projects/thesis.png";
 import dbms from "../../Assets/Projects/dbms.png";
 import keyb from "../../Assets/Projects/keyb.png";
 import sack from "../../Assets/Projects/SACK.JPG";
@@ -26,7 +26,7 @@ function Projects() {
               imgPath={keyb}
               isBlog={false}
               title="Cast Type"
-              description="I developed MERN E-commerce website for mechanical keyboards, utilizing React.js for the frontend, Express.js (built on top of Node.js) for the backend, and MongoDB for the database. The application includes features such as Redux for state management and React Styled Components for UI design. I created REST APIs using Express to facilitate communication between the frontend and backend, enabling efficient addition, updating, and deletion of data. Additionally, I integrated the Stripe API (sandbox) for secure credit card transactions and payment processing."
+              description="I built a MERN e-commerce site for mechanical keyboards, using React.js for the frontend, Express.js (Node.js) for the backend, and MongoDB for the database. The application includes Redux for state management, React Styled Components for UI, and integrates the Stripe API for secure transactions. REST APIs in Express handle data operations."
               ghLink="https://github.com/Matthew-Gallardo/MERN-E-Commerce-for-Mechanical-Keyboards.git"
               
             />
@@ -37,9 +37,9 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="Open Source Freedom Wall"
-              description="I developed a MERN Freedom Wall website specifically designed for CS students. The application was built using React.js for the frontend, Node.js for the backend, and MongoDB for the database. To facilitate communication between the frontend and backend, I implemented a REST API using the Express framework in Node.js. This allowed seamless interaction with the MongoDB database for efficient data storage and retrieval. For state management in the frontend, I utilized React Hooks and the Context API, ensuring an optimized and streamlined user experience."
+              description="I created a MERN Freedom Wall website for CS students, employing React.js for the frontend, Node.js for the backend, and MongoDB for the database. The communication is facilitated by a REST API using Express. React Hooks and the Context API manage state for an optimized user experience."
               ghLink="https://github.com/Matthew-Gallardo/CompScie-FreedomWall.git"
-              demoLink="https://opensourcefw.herokuapp.com/"
+              
               
             />
           </Col>
@@ -49,7 +49,7 @@ function Projects() {
               imgPath={dbms}
               isBlog={false}
               title="EasyPC Database Management System"
-              description="I developed an EasyPC-inspired inventory and Point of Sales (PoS) system using Java. The system includes a graphical user interface (GUI) built with Java Swing, allowing users to interact with the application seamlessly. For efficient data storage and retrieval, I integrated MySQL as the backend database. The system is designed to handle inventory tracking, product management, and sales processing, providing a comprehensive solution for managing the EasyPC inventory and facilitating smooth PoS operations."
+              description="I created an inventory and Point of Sales (PoS) system inspired by EasyPC using Java. The graphical user interface (GUI) is built with Java Swing for seamless user interaction. MySQL serves as the backend database for efficient data storage and retrieval. The system manages inventory tracking, product management, and sales processing, offering a comprehensive solution for EasyPC inventory management and PoS operations."
               ghLink="https://github.com/Matthew-Gallardo/Database-PoS-Inventory-System-for-EasyPc.git"
                           
             />
@@ -70,10 +70,19 @@ function Projects() {
               imgPath={sack}
               isBlog={false}
               title="SackCal- Knapsack Problem Calculator"
-              description="Web-based Knapsack problem calculator,  an interactive tool to solve the Knapsack problem with ease. Allowing users to input the weights and values of items, as well as the weight capacity of the knapsack. Using the brute force approach and dynamic programming, the calculator efficiently determines the optimal subset of items to maximize the total value within the weight constraint.
-              It displays the maximum achievable value and the selected items that should be included in the knapsack. This tool enables users to explore different scenarios, experiment with different item weights and values, and observe the impact on the overall solution."
+              description="I developed a web-based Knapsack problem calculator, an interactive tool for easily solving the problem. Users input item weights, values, and knapsack capacity. Utilizing brute force and dynamic programming, the calculator efficiently determines the optimal item subset, maximizing total value within the weight constraint. It displays the maximum achievable value and selected items, allowing users to explore scenarios, experiment with weights and values, and observe the solution's impact."
               ghLink="https://github.com/Matthew-Gallardo/Bruteforce-Knapsack-Algorithm.git"
               demoLink="https://bruteforce-knapsack-algorithm.vercel.app/"
+              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={thesis}
+              isBlog={false}
+              title="Illuscan-Detection of GAN Generated Images using Spatial-Frequency Fusion Data"
+              description="We developed a thesis project focused on enhancing GAN-generated image detection. The study introduces a spatial-frequency domain fusion approach, combining Discrete Wavelet Transform (DWT) in the frequency domain and Local Binary Pattern (LBP) in the spatial domain.Utilizing Support Vector Machine as classifier. The motivation stems from concerns about potential misuse of synthetic images. The novel approach demonstrated promising results with 87.50% accuracy, 80.25% recall, 86.52% F-measure, and 93.85% precision. The model achieved 97.67% accuracy for Generated Objects, 90.67% for Generated Faces, 82.33% for Generated Animals, and 79.33% for Generated Scenes. This research contributes to the development of precise GAN detection methods, advancing the fields of computer vision and digital forensics. Explore the effectiveness of our spatial-frequency domain fusion data technique in improving GAN-generated image detection."
+              ghLink="https://github.com/Deynnnyellll/Detection-of-GAN-Generated-Images-using-Spatial-Frequency-Domain-Fusion-Data"
               
             />
           </Col>

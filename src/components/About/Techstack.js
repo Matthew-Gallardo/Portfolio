@@ -2,7 +2,8 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { DiJavascript1, DiReact, DiNodejs, DiMongodb, DiGit, DiPython, DiJava } from "react-icons/di";
 import { SiMysql } from "react-icons/si";
-import { FaHtml5, FaCss3 } from "react-icons/fa";
+import { FaHtml5, FaCss3, FaDocker, FaVuejs } from "react-icons/fa";
+
 
 function Techstack() {
   return (
@@ -26,6 +27,9 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <FaVuejs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -36,6 +40,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMysql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaDocker />
       </Col>
     </Row>
   );
