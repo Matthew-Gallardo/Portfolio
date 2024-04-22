@@ -93,6 +93,14 @@ const Contact = () => {
         }
       );
   };
+    if (success) {
+      Swal.fire({
+        icon: "success",
+        title: "Your message has been sent. We'll get back to you soon :)",
+        showConfirmButton: false,
+        timer: 1500
+      });
+  }
 
   return (
     <Section>
@@ -110,12 +118,7 @@ const Contact = () => {
             <Button type="submit">Send</Button>
             {success &&
              <SuccessMessage>
-              {Swal.fire({
-                icon: "success",
-                title: "Your message has been sent. We'll get back to you soon :)",
-                showConfirmButton: false,
-                timer: 1500
-              })}
+              Your message has been sent successfully!
            </SuccessMessage>
               }
           </Form>
