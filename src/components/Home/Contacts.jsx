@@ -2,6 +2,9 @@ import React, { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import styled from "styled-components";
 
+import Swal from 'sweetalert2'
+
+
 const Section = styled.div`
   height: 100vh;
   scroll-snap-align: center;
@@ -107,7 +110,12 @@ const Contact = () => {
             <Button type="submit">Send</Button>
             {success &&
              <SuccessMessage>
-             Your message has been sent. We'll get back to you soon :)
+              {Swal.fire({
+                icon: "success",
+                title: "Your message has been sent. We'll get back to you soon :)",
+                showConfirmButton: false,
+                timer: 1500
+              })}
            </SuccessMessage>
               }
           </Form>
