@@ -31,7 +31,7 @@ function Home2() {
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Software and Web technologies </b> and
+                <b className="purple">Software  technologies </b> and
                 also in areas related to{" "}
                 <b className="purple">
                   Machine Learning / Artificial Intelligence
@@ -40,16 +40,16 @@ function Home2() {
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              with <b className="purple">Modern Javascript Library and Frameworks</b> like
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  MERN stack
                 </b>
               </i>
-              &nbsp; like
+              &nbsp; and building
               <i>
-                <b className="purple"> MERN Stack Technologies </b>
+                <b className="purple"> Machine Learning Models.  </b>
               </i>
             </p>
           </Col>
