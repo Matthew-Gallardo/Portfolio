@@ -29,7 +29,7 @@ function Projects() {
               title="Illuscan-Detection of GAN Generated Images using Spatial-Frequency Fusion Data"
               description="Thesis study  focuses on GAN-generated image detection using a novel spatial-frequency domain fusion approach. This method combines Discrete Wavelet Transform (DWT) in the frequency domain with Local Binary Pattern (LBP) in the spatial domain and utilizes Support Vector Machine as a classifier. Motivated by concerns over synthetic image misuse, our approach achieved promising results: 87.50% accuracy, 80.25% recall, 86.52% F-measure, and 93.85% precision.This research advances GAN detection methods, benefiting computer vision and digital forensics."
               ghLink="https://github.com/Deynnnyellll/Detection-of-GAN-Generated-Images-using-Spatial-Frequency-Domain-Fusion-Data"
-              tags={["Generative-Adversarial Networks", "Local Binary Pattert", "Discrete Wavelet Transform", "Support Vector Machine"]}
+              tags={["Generative-Adversarial Networks", "Local Binary Pattern", "Discrete Wavelet Transform", "Support Vector Machine"]}
               
             />
           </Col>
