@@ -12,7 +12,7 @@ function Wakatime() {
       <Row className="justify-content-center" style={{ paddingBottom: "10px" }}>
         <Col xs={12} className="text-center">
           <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
-            How Long I <strong className="purple">Code</strong>
+           Time I <strong className="purple">Code</strong>
           </h1>
         </Col>
         <Col xs={12} className="text-center">
@@ -27,7 +27,7 @@ function Wakatime() {
         <Col xs={12} className="text-center" style={{ marginTop: "20px" }}>
           <figure style={{ margin: "0 auto" }}>
             <embed 
-              src="https://wakatime.com/share/@MattG/b0643ab2-f972-4604-bbee-7a398b259f20.svg" 
+              src="https://wakatime.com/share/@MattG/9c6fa887-06d3-4ced-9125-78ac547ee0b1.svg"
               style={{ width: "100%", maxWidth: "600px", height: "auto" }}
             />
           </figure>
