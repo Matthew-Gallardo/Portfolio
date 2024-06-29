@@ -27,7 +27,7 @@ function Wakatime() {
         <Col xs={12} className="text-center" style={{ marginTop: "20px" }}>
           <figure style={{ margin: "0 auto" }}>
             <embed 
-              src="https://wakatime.com/share/@MattG/9c6fa887-06d3-4ced-9125-78ac547ee0b1.svg"
+              src="https://wakatime.com/share/@MattG/013dd8d7-02cf-4cb1-ac50-8cd52de73048.svg"
               style={{ width: "100%", maxWidth: "600px", height: "auto" }}
             />
           </figure>
