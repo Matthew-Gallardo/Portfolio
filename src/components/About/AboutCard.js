@@ -11,9 +11,9 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Matthew Gallardo </span>
             from <span className="purple"> Quezon City, Philippines.</span>
             <br />
-            <br /> I am a <span className="purple">Computer Science </span> Student @ Polytechnic University of the Philippines Sta. Mesa Manila
+            <br /> I am a <span className="purple">Computer Science </span> Graduate @ Polytechnic University of the Philippines Sta. Mesa Manila
             <br />
-            Currently a <span className="purple">Commission on Higher Education (CHED) </span> and <span className="purple">Quezon City Youth Development</span> Scholar
+            A <span className="purple">Commission on Higher Education (CHED) </span> and <span className="purple">Quezon City Youth Development</span> Scholar
             <br />
             <br />
             <p style={{ textAlign: "justify" }}>
@@ -24,7 +24,7 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Play Games
+              <ImPointRight /> Play Games and Music
             </li>
             <li className="about-activity">
               <ImPointRight /> Watch Movies and TV Series
@@ -35,10 +35,10 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155, 126, 172)" }}>
-            "If you want to win the lottery you've got to make money to get a ticket."{" "}
+            "Reach for the stars, so if you fall, you land on a cloud"{" "}
           </p>
           
-          <footer className="blockquote-footer"><span className="purple">Lou Bloom </span> | Nightcrawler (2014) </footer>
+          <footer className="blockquote-footer"><span className="purple">Kanye West</span> | Homecoming</footer>
         </blockquote>
       </Card.Body>
     </Card>
