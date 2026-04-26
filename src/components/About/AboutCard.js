@@ -11,14 +11,19 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Matthew Gallardo </span>
             from <span className="purple"> Quezon City, Philippines.</span>
             <br />
-            <br /> I am a <span className="purple">Computer Science </span> Graduate @ Polytechnic University of the Philippines Sta. Mesa Manila
+            <br /> I graduated with a <span className="purple">Magna Cum Laude</span> degree in <span className="purple">Computer Science</span> from Polytechnic University of the Philippines Sta. Mesa Manila
             <br />
             A <span className="purple">Commission on Higher Education (CHED) </span> and <span className="purple">Quezon City Youth Development</span> Scholar
             <br />
             <br />
-            <p style={{ textAlign: "justify" }}>
-           I have also gained experience as a Software Engineer Intern at <span className="purple">Baytech BPO Corporation</span>. August 2023- September 2023
-          </p>
+            I am currently working in <span className="purple">financial and banking technology</span> as a <span className="purple">backend developer</span>, with experience in <span className="purple">Java backend development</span>, <span className="purple">microservices architecture</span>, <span className="purple">secure banking systems</span>, and <span className="purple">production support</span>.
+            <br />
+            <br />
+            My recent work includes the <span className="purple">Security Bank Mobile Application (SBAPP) Payments & Transfers Squad</span>, where I helped deliver and support core digital payment services such as <span className="purple">QRPH</span>, <span className="purple">InstaPay</span>, <span className="purple">PESONet</span>, and <span className="purple">Prepaid Mobile Reload</span>.
+            <br />
+            <br />
+            I also contributed to the <span className="purple">end-to-end development</span> and <span className="purple">production release</span> of <span className="purple">PESONet payments</span>, led the <span className="purple">Prepaid Mobile Reload</span> feature as <span className="purple">primary POC</span>, and supported the rollout of <span className="purple">QRPH P2P payments</span>.
+            <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>

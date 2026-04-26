@@ -1,25 +1,39 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { SiVisualstudiocode, SiPostman, SiGithub, SiAdobe } from "react-icons/si";
-import { DiAndroid } from "react-icons/di";
+import {
+  DiGit,
+  DiVisualstudio,
+  DiAndroid,
+} from "react-icons/di";
+import {
+  SiPostman,
+  SiJupyter,
+  SiGooglecolab,
+  SiGithub,
+} from "react-icons/si";
+
+const tools = [
+  { label: "Git", Icon: DiGit },
+  { label: "Postman", Icon: SiPostman },
+  { label: "VS Code", Icon: DiVisualstudio },
+  { label: "Jupyter Notebook", Icon: SiJupyter },
+  { label: "Google Colab", Icon: SiGooglecolab },
+  { label: "Android Studio", Icon: DiAndroid },
+  { label: "GitHub", Icon: SiGithub },
+];
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiAndroid />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiGithub />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiAdobe />
+      <Col md={12}>
+        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "1rem" }}>
+          {tools.map(({ label, Icon }) => (
+            <div key={label} className="tech-icons" style={{ minWidth: "110px" }}>
+              <Icon />
+              <p style={{ marginTop: "0.65rem", marginBottom: 0, fontSize: "0.95rem" }}>{label}</p>
+            </div>
+          ))}
+        </div>
       </Col>
     </Row>
   );

@@ -20,36 +20,35 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am  <b className="purple"> Matthew Gallardo </b>, Computer Science Graduate @
+              I am  <b className="purple"> Matthew Gallardo </b>, graduted Magna Cum Laude with a degree of <b className="purple">Computer Science</b> @
               <b className="purple"> Polytechnic
               University of the Philippines Manila </b>
               <br />I have a background in
               <i>
-                <b className="purple"> Javascript , Java, Python and C. </b>
+                <b className="purple">  Java, Javascript , Python and C. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of interest is building new &nbsp;
               <i>
-                <b className="purple">Software  technologies </b> and
-                also in areas related to{" "}
+                <b className="purple">software technologies</b> and areas related to{" "}
                 <b className="purple">
-                  Machine Learning / Artificial Intelligence
+                  Backend Development and Artificial Intelligence.
                 </b>
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Modern Javascript Library and Frameworks</b> like
+              with <b className="purple">Modern Java Backend technology</b> like
               <i>
                 <b className="purple">
                   {" "}
-                  MERN stack
+                  Spring Boot
                 </b>
               </i>
               &nbsp; and building
               <i>
-                <b className="purple"> Machine Learning Models.  </b>
+                <b className="purple">  Machine Learning Models.  </b>
               </i>
             </p>
           </Col>
